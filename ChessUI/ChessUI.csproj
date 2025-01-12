@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\BishopB.png" />
+    <None Remove="Assets\BishopW.png" />
+    <None Remove="Assets\Board.png" />
+    <None Remove="Assets\CursorB.cur" />
+    <None Remove="Assets\CursorW.cur" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\KingB.png" />
+    <None Remove="Assets\KingW.png" />
+    <None Remove="Assets\KnightB.png" />
+    <None Remove="Assets\KnightW.png" />
+    <None Remove="Assets\PawnB.png" />
+    <None Remove="Assets\PawnW.png" />
+    <None Remove="Assets\QueenB.png" />
+    <None Remove="Assets\QueenW.png" />
+    <None Remove="Assets\RookB.png" />
+    <None Remove="Assets\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\BishopB.png" />
+    <EmbeddedResource Include="Assets\BishopW.png" />
+    <EmbeddedResource Include="Assets\Board.png" />
+    <EmbeddedResource Include="Assets\CursorB.cur" />
+    <EmbeddedResource Include="Assets\CursorW.cur" />
+    <EmbeddedResource Include="Assets\icon.ico" />
+    <EmbeddedResource Include="Assets\KingB.png" />
+    <EmbeddedResource Include="Assets\KingW.png" />
+    <EmbeddedResource Include="Assets\KnightB.png" />
+    <EmbeddedResource Include="Assets\KnightW.png" />
+    <EmbeddedResource Include="Assets\PawnB.png" />
+    <EmbeddedResource Include="Assets\PawnW.png" />
+    <EmbeddedResource Include="Assets\QueenB.png" />
+    <EmbeddedResource Include="Assets\QueenW.png" />
+    <EmbeddedResource Include="Assets\RookB.png" />
+    <EmbeddedResource Include="Assets\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
